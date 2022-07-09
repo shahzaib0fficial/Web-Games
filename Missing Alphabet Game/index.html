@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Missing Alphabet Game</title>
+          <link rel="stylesheet" type="text/css" href="style.css">
+     </head>
+<body>
+
+
+<h1>Missisng Alphabet Game</h1>
+
+<!--level no 1-->
+
+<div id="level1">
+     <label> M </label> <input type="text" id="firstword1" maxlength="1" oninput="move(this,'secondword1')">
+     <label> U </label> <input type="text" id="secondword1" maxlength="1">
+     <label> E </label>
+<br>
+     <button class="submit" id="submit1" onclick="level1()">Submit</button>
+     <p id="display1" class="display"></p>
+     <button class="next" id="next2" onclick="next2()">NEXT</button>
+</div>
+
+<!--level no 2-->
+
+<div id="level2">
+     <label> C </label> <input type="text" id="firstword2">
+     <label> T </label>
+
+<br>
+     <button class="submit" id="submit2" onclick="level2()">Submit</button>
+     <p id="display2" class="display"></p>
+     <button class="next" id="next3" onclick="next3()">NEXT</button>
+</div>
+
+<!--level no 3-->
+
+<div id="level3">
+     <label> S </label> <input type="text" id="firstword3" oninput="move(this,'secondword3')">
+     <label> I </label> <input type="text" id="secondword3">
+<br>
+     <button class="submit" id="submit3" onclick="level3()">Submit</button>
+     <p id="display3" class="display"></p>
+     <button class="next" id="next4" onclick="next4()">NEXT</button>
+</div>
+
+<!--level no 4-->
+
+<div id="level4">
+     <label> C </label> <input type="text" id="firstword4" oninput="move(this,'secondword4')">
+     <label> O </label> <input type="text" id="secondword4">
+     <label> K </label> 
+<br>
+     <button class="submit" id="submit4" onclick="level4()">Submit</button>
+     <p id="display4" class="display"></p>
+     <button class="next" id="next5" onclick="next5()">NEXT</button>
+</div>
+
+<!--level no 5-->
+
+<div id="level5">
+     <label> A </label> <input type="text" id="firstword5" oninput="move(this,'secondword5')">
+     <label> N </label> <input type="text" id="secondword5">
+<br>
+     <button class="submit" id="submit5" onclick="level5()">Submit</button>
+     <p id="display5" class="display"></p>
+     <button class="next" id="next6" onclick="next6()">NEXT</button>
+</div>
+
+<!--level no 6-->
+
+<div id="level6">
+     <label> B </label> <input type="text" id="firstword6" oninput="move(this,'secondword6')">
+     <label> L </label> <input type="text" id="secondword6">
+
+<br>
+     <button class="submit" id="submit6" onclick="level6()">Submit</button>
+     <p id="display6" class="display"></p>
+     <button class="next" id="next7" onclick="next7()">NEXT</button>
+</div>
+
+<!--level no 7-->
+
+<div id="level7">
+     <label> C </label> <input type="text" id="firstword7" oninput="move(this,'secondword7')">
+     <label> O </label> <input type="text" id="secondword7">
+     <label> D </label>
+<br>
+     <button class="submit" id="submit7" onclick="level7()">Submit</button>
+     <p id="display7" class="display"></p>
+     <button class="next" id="next8" onclick="next8()">NEXT</button>
+</div>
+
+<!--level no 8-->
+
+<div id="level8">
+     <label> F </label> <input type="text" id="firstword8">
+     <label> N </label>
+<br>
+     <button class="submit" id="submit8" onclick="level8()">Submit</button>
+     <p id="display8" class="display"></p>
+     <button class="next" id="next9" onclick="next9()">NEXT</button>
+</div>
+
+<!--level no 9-->
+
+<div id="level9">
+     <label> C </label> <input type="text" id="firstword9" oninput="move(this,'secondword9')">
+     <label> K </label> <input type="text" id="secondword9">
+<br>
+     <button class="submit" id="submit9" onclick="level9()">Submit</button>
+     <p id="display9" class="display"></p>
+     <button class="next" id="next10" onclick="next10()">NEXT</button>
+</div>
+
+<!--level no 10-->
+
+<div id="level10">
+     <label> S </label> <input type="text" id="firstword10" oninput="move(this,'secondword10')">
+     <label> O </label> <input type="text" id="secondword10">
+<br>
+     <button class="submit" id="submit10" onclick="level10()">Submit</button>
+     <p id="display10" class="display"></p>
+     <button class="next" id="next11" onclick="next11()">NEXT</button>
+</div>
+
+<!--level no 11-->
+
+<div id="level11">
+     <label> F </label> <input type="text" id="firstword11" oninput="move(this,'secondword11')">
+     <label> O </label> <input type="text" id="secondword11" oninput="move(this,'thirdword11')">
+     <label> E </label> <input type="text" id="thirdword11">
+<br>
+     <button class="submit" id="submit11" onclick="level11()">Submit</button>
+     <p id="display11" class="display"></p>
+     <button class="next" id="next12" onclick="next12()">NEXT</button>
+</div>
+
+<!--level no 12-->
+
+<div id="level12">
+     <label> B </label> <input type="text" id="firstword12" oninput="move(this,'secondword12')">
+     <label> O </label> <input type="text" id="secondword12">
+<br>
+     <button class="submit" id="submit12" onclick="level12()">Submit</button>
+     <p id="display12" class="display"></p>
+     <button class="next" id="next13" onclick="next13()">NEXT</button>
+</div>
+
+<!--level no 13-->
+
+<div id="level13">
+     <label> B </label> <input type="text" id="firstword13" oninput="move(this,'secondword13')">
+     <label> L </label> <input type="text" id="secondword13" oninput="move(this,'thirdword13')">
+     <label> O </label> <input type="text" id="thirdword13">
+     <label> N </label>
+<br>
+     <button class="submit" id="submit13" onclick="level13()">Submit</button>
+     <p id="display13" class="display"></p>
+     <button class="next" id="next14" onclick="next14()">NEXT</button>
+</div>
+
+<!--level no 14-->
+
+<div id="level14">
+     <label> L </label> <input type="text" id="firstword14" oninput="move(this,'secondword14')">
+     <label> P </label> <input type="text" id="secondword14" oninput="move(this,'thirdword14')">
+     <label> O </label> <input type="text" id="thirdword14">
+<br>
+     <button class="submit" id="submit14" onclick="level14()">Submit</button>
+     <p id="display14" class="display"></p>
+     <button class="next" id="next15" onclick="next15()">NEXT</button>
+</div>
+
+<!--level no 15-->
+
+<div id="level15">
+     <label> K </label> <input type="text" id="firstword15">
+     <label> Y </label>
+<br>
+     <button class="submit" id="submit15" onclick="level15()">Submit</button>
+     <p id="display15" class="display"></p>
+     <button class="next" id="next16" onclick="next16()">NEXT</button>
+</div>
+
+<!--level no 16-->
+
+<div id="level16">
+     <label> E </label> <input type="text" id="firstword16" oninput="move(this,'secondword16')">
+     <label> E </label> <input type="text" id="secondword16" oninput="move(this,'thirdword16')">
+     <label> H </label> <input type="text" id="thirdword16" oninput="move(this,'fourthword16')">
+     <label> N </label> <input type="text" id="fourthword16">
+<br>
+     <button class="submit" id="submit16" onclick="level16()">Submit</button>
+     <p id="display16" class="display"></p>
+     <button class="next" id="next17" onclick="next17()">NEXT</button>
+</div>
+
+<!--level no 17-->
+
+<div id="level17">
+     <label> H </label> <input type="text" id="firstword17" oninput="move(this,'secondword17')">
+     <label> M </label> <input type="text" id="secondword17">
+<br>
+     <button class="submit" id="submit17" onclick="level17()">Submit</button>
+     <p id="display17" class="display"></p>
+     <button class="next" id="next18" onclick="next18()">NEXT</button>
+</div>
+
+<!--level no 18-->
+
+<div id="level18">
+     <label> B </label> <input type="text" id="firstword18" oninput="move(this,'secondword18')">
+     <label> T </label> <input type="text" id="secondword18" oninput="move(this,'thirdword18')">
+     <label> E </label> <input type="text" id="thirdword18">
+<br>
+     <button class="submit" id="submit18" onclick="level18()">Submit</button>
+     <p id="display18" class="display"></p>
+     <button class="next" id="next19" onclick="next19()">NEXT</button>
+</div>
+
+<!--level no 19-->
+
+<div id="level19">
+     <label> C </label> <input type="text" id="firstword19" oninput="move(this,'secondword19')">
+     <label> I </label> <input type="text" id="secondword19" oninput="move(this,'thirdword19')">
+     <label> D </label> <input type="text" id="thirdword19" oninput="move(this,'fourthword19')">
+     <label> E </label> <input type="text" id="fourthword19">
+<br>
+     <button class="submit" id="submit19" onclick="level19()">Submit</button>
+     <p id="display19" class="display"></p>
+     <button class="next" id="next20" onclick="next20()">NEXT</button>
+</div>
+
+<!--level no 20-->
+
+<div id="level20">
+     <label> D </label> <input type="text" id="firstword20" oninput="move(this,'secondword20')">
+     <label> E </label> <input type="text" id="secondword20">
+     <label> S </label>
+<br>
+     <button class="submit" id="submit20" onclick="level20()">Submit</button>
+     <p id="display20" class="display"></p>
+     <button class="next" id="next21" onclick="next21()">NEXT</button>
+</div>
+
+<!--level no 21-->
+
+<div id="level21">
+     <label> A </label> <input type="text" id="firstword21" oninput="move(this,'secondword21')">
+     <label> P </label> <input type="text" id="secondword21">
+     <label> E </label>
+<br>
+     <button class="submit" id="submit21" onclick="level21()">Submit</button>
+     <p id="display21" class="display"></p>
+     <button class="next" id="next22" onclick="next22()">NEXT</button>
+</div>
+
+<!--level no 22-->
+
+<div id="level22">
+     <label> F </label> <input type="text" id="firstword22" oninput="move(this,'secondword22')">
+     <label> S </label> <input type="text" id="secondword22">
+<br>
+     <button class="submit" id="submit22" onclick="level22()">Submit</button>
+     <p id="display22" class="display"></p>
+     <button class="next" id="next23" onclick="next23()">NEXT</button>
+</div>
+
+<!--level no 23-->
+
+<div id="level23">
+     <label> S </label> <input type="text" id="firstword23" oninput="move(this,'secondword23')">
+     <label> A </label> <input type="text" id="secondword23">
+     <label> E </label>
+<br>
+     <button class="submit" id="submit23" onclick="level23()">Submit</button>
+     <p id="display23" class="display"></p>
+     <button class="next" id="next24" onclick="next24()">NEXT</button>
+</div>
+
+<!--level no 24-->
+
+<div id="level24">
+     <label> C </label> <input type="text" id="firstword24" oninput="move(this,'secondword24')">
+     <label> M </label> <input type="text" id="secondword24" oninput="move(this,'thirdword24')">
+     <label> R </label> <input type="text" id="thirdword24">
+<br>
+     <button class="submit" id="submit24" onclick="level24()">Submit</button>
+     <p id="display24" class="display"></p>
+     <button class="next" id="next25" onclick="next25()">NEXT</button>
+</div>
+
+<!--level no 25-->
+
+<div id="level25">
+     <label> B </label> <input type="text" id="firstword25" oninput="move(this,'secondword25')">
+     <label> W </label> <input type="text" id="secondword25">
+<br>
+     <button class="submit" id="submit25" onclick="level25()">Submit</button>
+     <p id="display25" class="display"></p>
+     <button class="next" id="next26" onclick="next26()">NEXT</button>
+</div>
+
+<!--level no 26-->
+
+<div id="level26">
+     <label> M </label> <input type="text" id="firstword26" oninput="move(this,'secondword26')">
+     <label> B </label> <input type="text" id="secondword26" oninput="move(this,'thirdword26')">
+     <label> L </label> <input type="text" id="thirdword26">
+<br>
+     <button class="submit" id="submit26" onclick="level26()">Submit</button>
+     <p id="display26" class="display"></p>
+     <button class="next" id="next27" onclick="next27()">NEXT</button>
+</div>
+
+<!--level no 27-->
+
+<div id="level27">
+     <label> R </label> <input type="text" id="firstword27" oninput="move(this,'secondword27')">
+     <label> O </label> <input type="text" id="secondword27">
+<br>
+     <button class="submit" id="submit27" onclick="level27()">Submit</button>
+     <p id="display27" class="display"></p>
+     <button class="next" id="next28" onclick="next28()">NEXT</button>
+</div>
+
+<!--level no 28-->
+
+<div id="level28">
+     <label> T </label> <input type="text" id="firstword28" oninput="move(this,'secondword28')">
+     <label> B </label> <input type="text" id="secondword28">
+     <label> E </label>
+<br>
+     <button class="submit" id="submit28" onclick="level28()">Submit</button>
+     <p id="display28" class="display"></p>
+     <button class="next" id="next29" onclick="next29()">NEXT</button>
+</div>
+
+<!--level no 29-->
+
+<div id="level29">
+     <label> B </label> <input type="text" id="firstword29" oninput="move(this,'secondword29')">
+     <label> T </label> <input type="text" id="secondword29" oninput="move(this,'thirdword29')">
+     <label> L </label> <input type="text" id="thirdword29">
+<br>
+     <button class="submit" id="submit29" onclick="level29()">Submit</button>
+     <p id="display29" class="display"></p>
+     <button class="next" id="next30" onclick="next30()">NEXT</button>
+</div>
+
+<!--level no 30-->
+
+<div id="level30">
+     <label> C </label> <input type="text" id="firstword30" oninput="move(this,'secondword30')">
+     <label> L </label> <input type="text" id="secondword30" oninput="move(this,'thirdword30')">
+     <label> N </label> <input type="text" id="thirdword30" oninput="move(this,'fourthword30')">
+     <label> A </label> <input type="text" id="fourthword30">
+<br>
+     <button class="submit" id="submit30" onclick="level30()">Submit</button>
+     <p id="display30" class="display"></p>
+     <button class="next" id="next31" onclick="next31()">NEXT</button>
+</div>
+
+<!--level no 31-->
+
+<div id="level31">
+     <label> S </label> <input type="text" id="firstword31" oninput="move(this,'secondword31')">
+     <label> A </label> <input type="text" id="secondword31" oninput="move(this,'thirdword31')">
+     <label> R </label> <input type="text" id="thirdword31">
+<br>
+     <button class="submit" id="submit31" onclick="level31()">Submit</button>
+     <p id="display31" class="display"></p>
+     <button class="next" id="next32" onclick="next32()">NEXT</button>
+</div>
+
+<!--level no 32-->
+
+<div id="level32">
+     <label> R </label> <input type="text" id="firstword32" oninput="move(this,'secondword32')">
+     <label> A </label> <input type="text" id="secondword32">
+<br>
+     <button class="submit" id="submit32" onclick="level32()">Submit</button>
+     <p id="display32" class="display"></p>
+     <button class="next" id="next33" onclick="next33()">NEXT</button>
+</div>
+
+<!--level no 33-->
+
+<div id="level33">
+     <label> R </label> <input type="text" id="firstword33" oninput="move(this,'secondword33')">
+     <label> I </label> <input type="text" id="secondword33" oninput="move(this,'thirdword33')">
+     <label> B </label> <input type="text" id="thirdword33">
+     <label> W </label>
+<br>
+     <button class="submit" id="submit33" onclick="level33()">Submit</button>
+     <p id="display33" class="display"></p>
+     <button class="next" id="next34" onclick="next34()">NEXT</button>
+</div>
+
+<!--level no 34-->
+
+<div id="level34">
+     <label> B </label> <input type="text" id="firstword34" oninput="move(this,'secondword34')">
+     <label> R </label> <input type="text" id="secondword34">
+     <label> S </label>
+<br>
+     <button class="submit" id="submit34" onclick="level34()">Submit</button>
+     <p id="display34" class="display"></p>
+     <button class="next" id="next35" onclick="next35()">NEXT</button>
+</div>
+
+<!--level no 35-->
+
+<div id="level35">
+     <label> M </label> <input type="text" id="firstword35" oninput="move(this,'secondword35')">
+     <label> R </label> <input type="text" id="secondword35" oninput="move(this,'thirdword35')">
+     <label> O </label> <input type="text" id="thirdword35">
+<br>
+     <button class="submit" id="submit35" onclick="level35()">Submit</button>
+     <p id="display35" class="display"></p>
+     <button class="next" id="next36" onclick="next36()">NEXT</button>
+</div>
+
+<!--level no 36-->
+
+<div id="level36">
+     <label> H </label> <input type="text" id="firstword36" oninput="move(this,'secondword36')">
+     <label> A </label> <input type="text" id="secondword36">
+     <label> T </label>
+<br>
+     <button class="submit" id="submit36" onclick="level36()">Submit</button>
+     <p id="display36" class="display"></p>
+     <button class="next" id="next37" onclick="next37()">NEXT</button>
+</div>
+
+<!--level no 37-->
+
+<div id="level37">
+     <label> K </label> <input type="text" id="firstword37" oninput="move(this,'secondword37')">
+     <label> N </label> <input type="text" id="secondword37">
+<br>
+     <button class="submit" id="submit37" onclick="level37()">Submit</button>
+     <p id="display37" class="display"></p>
+     <button class="next" id="next38" onclick="next38()">NEXT</button>
+</div>
+
+<!--level no 38-->
+
+<div id="level38">
+     <label> W </label> <input type="text" id="firstword38" oninput="move(this,'secondword38')">
+     <label> T </label> <input type="text" id="secondword38">
+     <label> R </label>
+<br>
+     <button class="submit" id="submit38" onclick="level38()">Submit</button>
+     <p id="display38" class="display"></p>
+     <button class="next" id="next39" onclick="next39()">NEXT</button>
+</div>
+
+<!--level no 39-->
+
+<div id="level39">
+     <label> P </label> <input type="text" id="firstword39" oninput="move(this,'secondword39')">
+     <label> Z </label> <input type="text" id="secondword39">
+     <label> A </label>
+<br>
+     <button class="submit" id="submit39" onclick="level39()">Submit</button>
+     <p id="display39" class="display"></p>
+     <button class="next" id="next40" onclick="next40()">NEXT</button>
+</div>
+
+<!--level no 40-->
+
+<div id="level40">
+     <label> C </label> <input type="text" id="firstword40" oninput="move(this,'secondword40')">
+     <label> R </label> <input type="text" id="secondword40" oninput="move(this,'secondword40')">
+     <label> N </label> <input type="text" id="thirdword40" oninput="move(this,'secondword40')">
+     <label> V </label> <input type="text" id="fourthword40" oninput="move(this,'secondword40')">
+     <label> R </label> <input type="text" id="fifthword40">
+     <label> S </label>
+<br>
+     <button class="submit" id="submit40" onclick="level40()">Submit</button>
+     <p id="display40" class="display"></p>
+</div>
+
+</body>
+
+<script src="javascript.js"></script>
+
+</html>

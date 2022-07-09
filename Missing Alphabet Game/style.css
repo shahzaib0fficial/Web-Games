@@ -1,0 +1,239 @@
+body{
+     text-align:center;
+}
+
+h1{
+   color:#009879;
+}
+
+label{
+      color:#009879;
+      font-size:25px;
+}
+
+input{
+      width:20px;
+      height:20px;
+      padding:3px;
+      font-size:25px;
+      color:skyblue;
+      text-align:center;
+      border:none;
+      border-bottom:2px solid black;
+}
+
+input:focus{
+            outline:none;
+}
+
+.submit{
+        margin-top:20px;
+        background:#009879;
+        color:white;
+        padding:3px;
+        border:none;
+        border-radius:3px;
+        font-size:16px;
+}
+
+.submit:active{
+               background:yellow;
+               color:red;
+}
+
+.display{
+         color:#009879;
+         font-size:30px;
+         font-weight:bold;
+}
+
+.next{
+      margin-top:20px;
+      background:#009879;
+      color:white;
+      padding:3px;
+      border:none;
+      border-radius:3px;
+      font-size:16px;
+      display:none;
+      margin-left:47%;
+}
+.next:active{
+             background:yellow;
+             color:red;
+}
+
+
+#level2{
+        display:none;
+}
+
+#level3{
+        display:none;
+}
+
+
+#level4{
+        display:none;
+}
+
+#level5{
+        display:none;
+}
+
+#level6{
+        display:none;
+}
+
+#level7{
+        display:none;
+}
+
+#level8{
+        display:none;
+}
+
+#level9{
+        display:none;
+}
+
+#level10{
+        display:none;
+}
+
+#level11{
+        display:none;
+}
+
+#level12{
+        display:none;
+}
+
+#level13{
+        display:none;
+}
+
+#level14{
+        display:none;
+}
+
+#level15{
+        display:none;
+}
+
+#level16{
+       display:none;
+}
+
+#level17{
+       display:none;
+}
+
+#level18{
+       display:none;
+}
+
+#level19{
+       display:none;
+}
+
+#level20{
+       display:none;
+}
+
+#level21{
+       display:none;
+}
+
+#level22{
+       display:none;
+}
+
+#level23{
+       display:none;
+}
+
+#level24{
+       display:none;
+}
+
+#level25{
+       display:none;
+}
+
+#level26{
+       display:none;
+}
+
+#level27{
+       display:none;
+}
+
+#level28{
+       display:none;
+}
+
+#level29{
+       display:none;
+}
+
+#level30{
+       display:none;
+}
+
+#level31{
+       display:none;
+}
+
+#level32{
+       display:none;
+}
+
+#level33{
+       display:none;
+}
+
+#level34{
+       display:none;
+}
+
+#level35{
+       display:none;
+}
+
+#level36{
+       display:none;
+}
+
+#level37{
+       display:none;
+}
+
+#level38{
+       display:none;
+}
+
+#level39{
+       display:none;
+}
+
+#level40{
+       display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

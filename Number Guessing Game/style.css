@@ -1,0 +1,84 @@
+*{
+    background: skyblue;
+}
+
+
+#game{
+    display:none;
+}
+
+#play{
+    text-align: center;
+}
+#play_button{
+    border:none;
+    background: #009879;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+#play_button:active{
+    background: yellow;
+    color: red;
+}
+
+
+h1{
+    color: #009879;
+}
+#heading{
+    text-align: center;
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+
+#guessed_number{
+    text-align: center;
+    border: none;
+    border: 1px solid #009879;
+    background: #f3f3f3;
+    color: skyblue;
+    border-radius: 5px;
+    width: 5em;
+    padding: 3px;
+    font-size: 20px;
+}
+input:focus{
+    outline:2px solid #009879;
+}
+#guessed_input{
+    text-align: center;
+}
+
+
+#test{
+    margin-top: 20px;
+    text-align: center;
+}
+#guess{
+    border:none;
+    background: #009879;
+    color: white;
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 5px;;
+}
+#guess:active{
+    background: yellow;
+    color: red;
+}
+
+#wrong_right{
+    text-align: center;
+    font-size: 30px;
+    color: #009879;
+}
