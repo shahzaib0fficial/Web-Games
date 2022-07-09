@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <title>Number Guessing</title>
 </head>
 <body>
+    <p id="limit">The Actual Number is in Between 0 to 100</p>
     <div id="play">
     <button id="play_button" onclick="play_game()">Play</button>
     </div>
@@ -32,6 +33,16 @@
     </div>
 
     <p id="wrong_right"></p>
+
+    <div id="instructions_list">
+    <ol>
+        <label id="instruction">Instructions</label>
+        <li>The Guessed Number is Must be in Between 0 to 100</li>
+        <li>Only 10 Time You Can Guess</li>
+        <li>Don't Use Any Special Character or Blank or Alphabets Otherwise It Consider be a Zero(Null)</li>
+        <li>Only Numbers Guess Here</li>
+    </ol>
+    </div>
 
     <script src="javascript.js"></script>
 

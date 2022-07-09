@@ -2,6 +2,14 @@
     background: skyblue;
 }
 
+#limit{
+    text-align: center;
+    color: #009879;
+    font-size: 35px;
+    font-weight: bold;
+    display: none;
+}
+
 
 #game{
     display:none;
@@ -81,4 +89,19 @@ input:focus{
     text-align: center;
     font-size: 30px;
     color: #009879;
+}
+
+
+#instructions_list{
+    display: none;
+}
+
+#instruction{
+    color: #009879;
+    font-size: 30px;
+}
+
+li{
+    color: blue;
+    font-size: 18px;
 }
