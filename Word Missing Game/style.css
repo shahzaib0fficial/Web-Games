@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("Pictures/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 7rem;
+    color: white;
+    font-family: Viner Hand ITC;
+    text-align: center;
+    margin-top: 5%;
+    cursor: default;
+}
+#play_list{
+    font-size: 3rem;    
+    list-style: none;
+    font-family: Segoe Script;
+    text-align: center;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-size: 3.5rem;
+    color: green;
+}
