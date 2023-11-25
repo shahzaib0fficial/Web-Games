@@ -1,1 +1,1 @@
-Here I added some web basics games 🤩
+Here I added some web basic games 🤩
